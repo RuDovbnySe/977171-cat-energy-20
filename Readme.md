@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Сергей Довбня](https://up.htmlacademy.ru/adaptive/20/user/977171).
-* Наставник: `Никита Сагитов`.
+* Наставник: [Никита Сагитов](https://htmlacademy.ru/profile/crazer).
 
 ---
 
