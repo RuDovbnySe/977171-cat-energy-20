@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>Кэт энерджи</title>
-  </head>
+  <meta charset="utf-8">
+  <title>Кэт энерджи</title>
+</head>
   <body class="page__body">
     <header class="page-header">
       <div class="container">
@@ -17,145 +17,144 @@
           <div class="main-nav__wrapper">
             <ul class="main-nav__list site-list">
               <li class="site-list__item site-list__item--active">
-                <a>
+                <a href="index.html">
                   Главная
                 </a>
               </li>
               <li class="site-list__item site-list__item--active">
                 <a href="catalog.html">
-                 Каталог продукции
+                  Каталог продукции
                 </a>
               </li>
               <li class="site-list__item site-list__item--active">
-                <a href="form.html">
+                <a>
                   Подбор программы
                 </a>
               </li>
             </ul>
-        </div>
-      </nav>
+          </div>
+        </nav>
       </div>
     </header>
-    <main class="page-main">
-      <div class="container">
-        <div class="page-main__wrapper">
-          <h1 class="page-main__tittle">Функциональное питание для котов</h1>
-          <p class="page-main__text">Занялся собой? Занимайся котом!</p>
-          <div class="page-main__img"></div>
-          <button class="page-main__green-btn" type="button">
-            Подобрать программу
-          </button>
-        </div>
-        <div class="program">
-          <div class="program__nutrition">
-            <div class="program__wrapper">
-              <div class="program__slim-img"></div>
-              <h2 class="program__tittle">Похудение</h2>
-              <p class="program__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
-              </p>
-              <a href="#nowhere" class="program__catalog-link">Каталог Slim</a>
-            </div>
-            <div class="program__nutrition">
-              <div class="program__wrapper">
-                <div class="program__mass-img"></div>
-                <h2 class="program__tittle">Набор массы</h2>
-                <p class="program__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
-                </p>
-                <a href="#nowhere" class="program__catalog-link">Каталог Pro</a>
+    <main>
+        <div class="container program">
+          <h1 class="program__title">Подбор программы</h1>
+          <p class="program__text">Заполните анкету и мы подберем  программу питания для вашего кота</p>
+          <form class="question" action="https://echo.htmlacademy.ru" method="post">
+            <div class="question__row">
+              <div class="question__column">
+                <fieldset class="question__field">
+                  <label class="form-field">
+                    <span class="form-field__text">Имя:*</span>
+                    <input class="form-field__control" type="text" placeholder="Барсик" required>
+                  </label>
+                  <label class="form-field">
+                    <span class="form-field__text">Вес (кг):*</span>
+                    <input class="form-field__control" type="text" placeholder="7" required>
+                  </label>
+                  <label class="form-field">
+                    <span class="form-field__text">Возраст (лет):</span>
+                    <input class="form-field__control" type="text" placeholder="7">
+                  </label>
+                </fieldset>
+              </div>
+              <div class="question__column">
+                <fieldset class="question__field question__field--line">
+                  <input type="radio" id="radio-1" name="choice" checked>
+                  <label class="form-type form-type--radio" for="radio-1" tabindex="0">Похудение</label>
+                  <input type="radio" id="radio-2" name="choice">
+                  <label class="form-type form-type--radio" for="radio-2" tabindex="0">Набор массы</label>
+                  <input type="radio" id="radio-3" name="choice">
+                  <label class="form-type form-type--radio" for="radio-3" tabindex="0">Не знаю (Нужен ваш совет)</label>
+                </fieldset>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="instruction">
-          <h2 class="instruction__tittle">Как это работает</h2>
-          <ul class="instruction__list">
-            <li class="instruction__item instruction__item--leaf">
-              <p class="instruction__text">
-                Функциональное питание содержит только полезные питательные вещества.
-              </p>
-            </li>
-            <li class="instruction__item instruction__item--powder">
-              <p class="instruction__text">
-                Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
-              </p>
-            </li>
-            <li class="instruction__item instruction__item--dining">
-              <p class="instruction__text">
-                Замените один-два приема обычной еды на наше функциональное питание.
-              </p>
-            </li>
-            <li class="instruction__item instruction__item--clock">
-              <p class="instruction__text">
-                Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="example">
-        <div class="container">
-          <div class="example__wrapper">
-            <section class="example__column">
-              <h3 class="example__tittle">
-                Живой пример
-              </h3>
-              <p class="example__text">
-                Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
-              </p>
-              <div class="example__result">
-                <ul class="result--list">
-                  <li class="result__item">
-                    <div class="result__wrapper">
-                      <div class="result__total">5 кг</div>
-                      <p class="result__text">
-                        Снижение веса
-                      </p>
-                    </div>
-                  </li>
-                  <li class="result__item">
-                    <div class="result__wrapper">
-                      <div class="result__total">60 дней</div>
-                      <p class="result__text">
-                        Затрачено времени
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-                <p class="result__total--expenses">
-                  Затраты на питание 15000 руб.
-                </p>
-              </div>
-            </section>
-            <div class="comparison">
-              <div class="comparison__img comparison__img--before"></div>
-                <div class="comparison__img comparison__img--after"></div>
-                <div class="comparison__range">
-                  <button class="comparison__btn">Было</button>
-                  <div class="comparison__progress">
-                    <div class="comparison__tog"></div>
-                  </div>
-                  <button class="comparison__btn">Стало</button>
+            <fieldset class="question__field">
+              <h3 class="title-line title-line--width">Контактные данные (владельца кота)</h3>
+              <div class="question__row">
+                <div class="question__column">
+                  <label class="form-field form-field--ident">
+                    <span class="form-field__text">E-mail:*</span>
+                    <input class="form-field__control form-field__control--icon" type="email" placeholder="kuklachev@gmail.com" required>
+                    <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="1.65" y1="5.71997" x2="1.65" y2="13.72" stroke="#222222" stroke-width="1.3"/>
+                      <line x1="18.65" y1="5.71997" x2="18.65" y2="13.72" stroke="#222222" stroke-width="1.3"/>
+                      <line x1="1" y1="13.07" x2="19" y2="13.07" stroke="#222222" stroke-width="1.3"/>
+                      <line x1="1" y1="1.06997" x2="19" y2="1.06997" stroke="#222222" stroke-width="1.3"/>
+                      <path d="M18.35 2.90207L10 9.39651L1.65 2.90206V1.36997H4.5L10 1.36997H15H18.35V2.90207Z" stroke="#222222" stroke-width="1.3"/>
+                    </svg>
+                  </label>
                 </div>
+                <div class="question__column">
+                  <label class="form-field">
+                    <span class="form-field__text">Телефон:*</span>
+                    <input class="form-field__control form-field__control--icon" type="tel" placeholder="8 (960) 900-60-90" required>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0)">
+                        <path d="M17.9 9.4H9.39999V10.6H17.9L15.8 12.7L16.7 13.6L19.8 10.5C19.8974 10.3702 19.95 10.2123 19.95 10.05C19.95 9.88772 19.8974 9.72982 19.8 9.6L16.7 6.5L15.8 7.4L17.9 9.4Z" fill="black"/>
+                        <path d="M8.10001 19.4V13.2C8.08846 13.0447 8.02154 12.8987 7.91142 12.7886C7.80131 12.6785 7.65531 12.6116 7.50001 12.6H3.10001C3.10516 12.9167 3.23325 13.2189 3.45718 13.4428C3.68112 13.6668 3.98336 13.7949 4.30001 13.8H6.80001V18.8H3.10001C2.86326 18.8149 2.62591 18.7825 2.40176 18.7048C2.17762 18.6271 1.97115 18.5057 1.79436 18.3475C1.61757 18.1893 1.47399 17.9976 1.37196 17.7834C1.26992 17.5693 1.21148 17.337 1.20001 17.1V3.10001C1.19181 2.6373 1.36516 2.18977 1.68292 1.85331C2.00069 1.51686 2.43758 1.31824 2.90001 1.30001H6.80001V6.30001H4.40001C4.08336 6.30516 3.78112 6.43324 3.55718 6.65718C3.33325 6.88112 3.20516 7.18336 3.20001 7.50001H7.60001C7.75531 7.48846 7.90131 7.42154 8.01142 7.31142C8.12154 7.2013 8.18846 7.05531 8.20001 6.90001V0.600012C8.15232 0.443872 8.06117 0.304534 7.93721 0.198285C7.81325 0.0920352 7.66161 0.0232649 7.50001 1.23734e-05H3.10001C2.70599 -0.0133408 2.31321 0.0511002 1.94411 0.189651C1.57501 0.328202 1.23684 0.538145 0.948933 0.807477C0.661026 1.07681 0.42903 1.40025 0.266207 1.7593C0.103385 2.11835 0.01293 2.50598 1.46306e-05 2.90001V16.8C-0.0289644 17.1977 0.0246504 17.597 0.157487 17.9729C0.290324 18.3489 0.499509 18.6932 0.771886 18.9844C1.04426 19.2756 1.37394 19.5072 1.74019 19.6648C2.10643 19.8224 2.50132 19.9024 2.90001 19.9H7.50001C7.5735 19.915 7.64943 19.9133 7.72216 19.895C7.7949 19.8767 7.86259 19.8423 7.92021 19.7942C7.97783 19.7462 8.02391 19.6859 8.05504 19.6176C8.08616 19.5494 8.10153 19.475 8.10001 19.4Z" fill="black"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="20" height="20" fill="white"/>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <div class="question__field">
+              <label class="title-line" for="for-textarea">Комментарий</label>
+              <textarea class="question__textarea" rows="8" id="for-textarea" placeholder="Расскажите обо всех повадках кота"></textarea>
             </div>
+            <fieldset class="question__field">
+              <h3 class="title-line">Дополнительно</h3>
+              <div class="question__row">
+                <div class="question__column">
+                  <input type="checkbox" id="check-1" checked>
+                  <label class="form-type form-type--check" for="check-1" tabindex="0">Сахарозаменитель</label>
+                </div>
+                <div class="question__column">
+                  <input type="checkbox" id="check-2">
+                  <label class="form-type form-type--check" for="check-2" tabindex="0">Питьевая вода</label>
+                </div>
+                <div class="question__column">
+                  <input type="checkbox" id="check-3">
+                  <label class="form-type form-type--check" for="check-3" tabindex="0">Молоко</label>
+                </div>
+                <div class="question__column">
+                  <input type="checkbox" id="check-4">
+                  <label class="form-type form-type--check" for="check-4" tabindex="0">Витамины</label>
+                </div>
+              </div>
+            </fieldset>
+            <div class="question__row">
+              <div class="question__column">
+                <button class="btn question__btn">Отправить заявку</button>
+              </div>
+              <div class="question__column">
+                <p class="question__text"><sup>*</sup>— Обязательные поля</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      <section class="invitation">
+        <div class="container">
+          <h2 class="invitation__title">Приглашаем к сотрудничеству  дилеров!</h2>
+          <p class="invitation__text">ул. Большая Конюшенная, д. 19/8
+            <span>Санкт-Петербург</span>
+          </p>
+        </div>
+      </section>
+      <div class="map">
+        <div class="container">
+          <div class="map__iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123688!2d30.320894615651014!3d59.93879686904841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1523735281602"  allowfullscreen></iframe>
           </div>
         </div>
       </div>
-        <section class="invitation">
-          <div class="container">
-            <h2 class="invitation__title">Приглашаем к сотрудничеству  дилеров!</h2>
-            <p class="invitation__text">ул. Большая Конюшенная, д. 19/8
-              <span>Санкт-Петербург</span>
-            </p>
-          </div>
-        </section>
-        <div class="map">
-          <div class="container">
-            <div class="map__iframe">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123688!2d30.320894615651014!3d59.93879686904841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1523735281602"  allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-    </main>
+      </main>
     <footer class="page-footer">
       <div class="container">
         <div class="page-footer__row">
