@@ -1,19 +1,10 @@
-var write = document.querySelector(".contacts-btn");
-var letter = document.querySelector(".letter");
-var close = document.querySelector(".js-close");
+var menu__toogle = document.querySelector(".main-nav__toggle");
+var menu = document.querySelector(".main-nav");
 
 
-write.addEventListener("click", function (evt) {
+
+menu__toogle.addEventListener("click", function (evt) {
   evt.preventDefault();
-  console.log("Клик - Напишите нам");
-  letter.classList.add("letter-show");
+  console.log("Клик - Открыть меню");
+  menu.classList.add("main-nav--show");
 });
-
-close.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  console.log("Клик - закрыть");
-  letter.classList.remove("letter-show");
-})
-
-
-
